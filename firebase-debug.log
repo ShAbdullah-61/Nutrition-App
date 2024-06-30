@@ -1,0 +1,63 @@
+[debug] [2024-02-18T21:22:34.843Z] ----------------------------------------------------------------------
+[debug] [2024-02-18T21:22:34.849Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create ios project (ios) --bundle-id=com.example.project --json --project=fyp-ui-e51b1
+[debug] [2024-02-18T21:22:34.850Z] CLI Version:   13.0.2
+[debug] [2024-02-18T21:22:34.851Z] Platform:      win32
+[debug] [2024-02-18T21:22:34.851Z] Node Version:  v20.10.0
+[debug] [2024-02-18T21:22:34.851Z] Time:          Sun Feb 18 2024 13:22:34 GMT-0800 (Pacific Standard Time)
+[debug] [2024-02-18T21:22:34.852Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-18T21:22:34.866Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-18T21:22:34.867Z] > authorizing via signed-in user (sheikhab424@gmail.com)
+[info] Create your IOS app in project fyp-ui-e51b1:
+[debug] [2024-02-18T21:22:34.876Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/fyp-ui-e51b1/iosApps [none]
+[debug] [2024-02-18T21:22:34.876Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/fyp-ui-e51b1/iosApps {"displayName":"project (ios)","bundleId":"com.example.project"}
+[debug] [2024-02-18T21:22:36.528Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/fyp-ui-e51b1/iosApps 200
+[debug] [2024-02-18T21:22:36.529Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/fyp-ui-e51b1/iosApps {"name":"operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx"}
+[debug] [2024-02-18T21:22:36.531Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx [none]
+[debug] [2024-02-18T21:22:37.049Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx 200
+[debug] [2024-02-18T21:22:37.050Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx {"name":"operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx"}
+[debug] [2024-02-18T21:22:37.561Z] [Create iOS app Poller] Retrying task index 0
+[debug] [2024-02-18T21:22:37.562Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx [none]
+[debug] [2024-02-18T21:22:37.966Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx 200
+[debug] [2024-02-18T21:22:37.967Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx {"name":"operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx"}
+[debug] [2024-02-18T21:22:38.976Z] [Create iOS app Poller] Retrying task index 0
+[debug] [2024-02-18T21:22:38.977Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx [none]
+[debug] [2024-02-18T21:22:39.432Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx 200
+[debug] [2024-02-18T21:22:39.432Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx {"name":"operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx"}
+[debug] [2024-02-18T21:22:41.446Z] [Create iOS app Poller] Retrying task index 0
+[debug] [2024-02-18T21:22:41.448Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx [none]
+[debug] [2024-02-18T21:22:41.906Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx 200
+[debug] [2024-02-18T21:22:41.906Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx {"name":"operations/workflows/NGQzZmQwZWItZjkyNi00NDMzLTk4ZTgtMDkwNjMyNGZlNTYx","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.IosApp","name":"projects/fyp-ui-e51b1/iosApps/1:308260862802:ios:490f6ef12cae3e4817d88b","appId":"1:308260862802:ios:490f6ef12cae3e4817d88b","displayName":"project (ios)","projectId":"fyp-ui-e51b1","bundleId":"com.example.project","apiKeyId":"d1a653aa-961d-41b7-a534-7878e8e6113c","state":"ACTIVE","expireTime":"1970-01-01T00:00:00Z","etag":"1_326a371a-b64f-42ac-bfd8-5749580cdd7e"}}
+[info] 
+[info] 🎉🎉🎉 Your Firebase IOS App is ready! 🎉🎉🎉
+[info] 
+[info] App information:
+[info]   - App ID: 1:308260862802:ios:490f6ef12cae3e4817d88b
+[info]   - Display name: project (ios)
+[info]   - Bundle ID: com.example.project
+[info] 
+[info] You can run this command to print out your new app's Google Services config:
+[info]   firebase apps:sdkconfig IOS 1:308260862802:ios:490f6ef12cae3e4817d88b
+[debug] [2024-02-18T21:22:41.910Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:556:12)
+    at _write (node:internal/streams/writable:490:10)
+    at Writable.write (node:internal/streams/writable:494:10)
+    at Ora.stopAndPersist (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\ora\index.js:376:15)
+    at Ora.succeed (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\ora\index.js:351:15)
+    at initiateIosAppCreation (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\apps-create.js:70:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Command.actionFn (C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\apps-create.js:153:23)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-02-18T21:22:41.912Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:61:25)
+    at writeOrBuffer (node:internal/streams/writable:556:12)
+    at _write (node:internal/streams/writable:490:10)
+    at Writable.write (node:internal/streams/writable:494:10)
+    at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:87:40
+    at new Promise (<anonymous>)
+    at C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:86:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: An unexpected error has occurred.
